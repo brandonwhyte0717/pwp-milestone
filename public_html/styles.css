@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+
+footer {
+    color: white;
+    background-color: black;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+h2 {
+    font-family: Calibri sans-serif;
+    font-size: large;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+
+
+
