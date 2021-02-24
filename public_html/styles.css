@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 footer {
@@ -26,16 +26,29 @@ footer p {
     font-size: 60px;
 }
 
-.about-me {
-    font-size: 40px;
-    text-align: center;
-    background-color: gray;
-}
 
 form {
     padding: 20px;
 }
 
-.navbar-brand {
-    font-size: 20px;
+.frontend {
+    text-align: center;
+    font-weight: bold;
+}
+
+.dev-ops {
+    text-align: center;
+    font-weight: bold;
+}
+
+.para1 h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.para1 {
+    background-color: gray;
+    padding-bottom: 20px;
+    padding-top: 0;
 }
