@@ -14,7 +14,9 @@
 </head>
 <body>
 <!-------------------------logo----------------------------->
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
+<div id="home">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white alt:home">
     <a class="navbar-brand font-size large">BW</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,21 +27,21 @@
         <div class="navbar-nav ml-auto">
 
             <a class="nav-link" href="#home">Home</a>
-            <a class="nav-link" href="#about">About Me</a>
-            <a class="nav-link" href="#projects">Projects</a>
-            <a class="nav-link" href="#contact-form">Contact</a>
+            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
 
         </div>
     </div>
 </nav>
+</div>
 
 <div class="jumbotron bg-white">
 <div class="container">
 
     <h2 class="main-name">Brandon Whyte</h2>
     <p>Web Developer</p>
-    <a class="btn btn-outline-light btn-lg" href="#contact-form" role="button">Contact Me</a>
-    <div class="contact-form"></div>
+    <a class="btn-dark btn-lg" href="#contact" role="button">Contact Me</a>
 
 </div>
 </div>
@@ -99,7 +101,7 @@
 
 
     <form action="./apis/" id="contact" method="post" novalidate>
-        <div class="form-group">
+        <div class="contact">
             <label for="name">Name</label>
             <div class="input-group">
                 <div class="input-group-prepend">
@@ -150,6 +152,7 @@
 
     <img src="https://assets-global.website-files.com/5e2701b416b6d176f5007781/5f6d5349392f864dd076175b_icon-linkdin.svg" alt="Raygun on LinkedIn">
     <img src="https://assets-global.website-files.com/5e2701b416b6d176f5007781/5f6d5350abc1700aede4f986_icon-github.svg" width="24" height="24" alt="Raygun on GitHub">
+
 </footer>
 
 
