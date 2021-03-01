@@ -41,8 +41,10 @@
 
     <h2 id="main-name">Brandon Whyte</h2>
     <p id="intro-text">Web Developer</p>
-    <a class="btn-dark btn-lg" href="#contact" role="button">Contact Me</a>
 
+    <div class="text-center">
+    <a id="contact-button" class=" btn btn-dark btn-lg" href="#contact">Contact Me</a>
+    </div>
 
 </div>
 </section>
@@ -53,11 +55,9 @@
 <div class="para1">
     <div class="container-fluid pt-4">
 
-        <h2>About Me</h2>
+        <h2 id="about-me">About Me</h2>
 
-        <img src="documentation/brandon_profile.jpg" class="rounded float-right" height="396" width="286" alt="profile-pic"/>
-
-        <p>My name is Brandon Whyte I am new to the New Mexico tech community and currently enrolled in the Deep Dive Coding Bootcamp
+        <p id="about-text">My name is Brandon Whyte I am new to the New Mexico tech community and currently enrolled in the Deep Dive Coding Bootcamp
         growing my skills as a developer. I was in the US Air Force for 6yrs as an Aircew Flight Equipment Technician, and now making the change to software development </p>
 
     </div>
@@ -70,9 +70,23 @@
 
         <h2 id="skills">Skills</h2>
 
+    <h2 id="frontend">Frontend Development</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+    </ul>
 
-
-
+    <h2 id="backend">Backend Development</h2>
+    <ul>
+        <li>MYSQL</li>
+        <li>Express</li>
+        <li>Docker</li>
+        <li>Git</li>
+        <li>Github</li>
+    </ul>
 
 </div>
 
@@ -82,7 +96,7 @@
 
     <form action="./apis/" id="contact" method="post" novalidate>
         <div class="contact">
-            <label for="name"></label>
+            <label for="name">Name</label>
             <div class="input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fa fa-user"></i></span>

@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: whitesmoke;
+    font-family: "Helvetica Neue", "Arial", sans-serif;;
 }
 
 footer {
@@ -8,12 +9,14 @@ footer {
     background-color: gray;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    border: black 1rem;
 }
 
-h2 {
-    font-family: Calibri sans-serif;
-    font-size: 20px;
+#about-me {
+    text-align: center;
+    font-size: 50px;
     font-weight: bold;
+    color: white;
 }
 
 footer p {
@@ -26,10 +29,19 @@ footer p {
     text-align: center;
 }
 
+#contact-button {
+    padding-bottom: 10px;
+}
+
+#skills {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
 
 #intro-text {
     color: gray;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -37,18 +49,19 @@ form {
     padding: 20px;
 }
 
-.para1 h2 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
-}
-
 .para1 {
     background-color: gray;
+    border: black 1rem;
     padding-bottom: 20px;
     padding-top: 0;
 }
 
-.img{
-    padding-bottom: 30px;
+li {
+    color: gray;
+    padding-bottom: 10px;
+}
+
+#about-text {
+    color: white;
+    border: black;
 }
