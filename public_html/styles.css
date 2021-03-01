@@ -85,3 +85,8 @@ li {
     padding: 5px 5px;
     border: solid white 2px;
 }
+
+#r {
+    position: relative;
+    padding-bottom: 20px;
+}
