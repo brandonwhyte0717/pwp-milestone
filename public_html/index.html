@@ -16,7 +16,7 @@
 <!-------------------------logo----------------------------->
 <div id="home">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white alt:home">
+<nav class="navbar navbar-expand-lg navbar-light bg-gray">
     <a class="navbar-brand font-size large">BW</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
 
             <a class="nav-link" href="#home">Home</a>
             <a class="nav-link" href="#about">About Me</a>
-            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#skills">Projects</a>
             <a class="nav-link" href="#contact">Contact</a>
 
         </div>
@@ -53,54 +53,49 @@
 
         <h2>About Me</h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p></p>
 
     </div>
 </div>
 </div>
 
-<div id="projects">
-<div class="container-fluid">
+<!------------------Skills---------------------->
 
-<div class="col-md-4 ml-auto pb-3 pt-5">
+<div id="skills">
+<div class="container">
 
-    <h2 class="frontend">Frontend</h2>
+    <div class="col-md-6 pt-4">
 
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>React</li>
-        <li>Bootstrap</li>
-    </ul>
+        <h2>Skills</h2>
+
+        <div class="row mt-4 justify-content-center">
+            <div class="col-xs">
+                <i class="fab fa-html5 fa-4x" aria-hidden="true"></i>
+                <i class="fab fa-css3-alt fa-4x" aria-hidden="true"></i>
+                <i class="fab fa-bootstrap fa-4x" aria-hidden="true"></i>
+            </div>
+            <div class="col-xs">
+                <i class="fab fa-js fa-4x" aria-hidden="true"></i>
+                <i class="fab fa-react fa-4x" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md">
+                <i class="fas fa-terminal fa-3x" aria-hidden="true"></i>
+                <i class="fab fa-git fa-4x" aria-hidden="true"></i>
+            </div>
+            <div class="col-md">
+                <i class="fab fa-docker fa-4x" aria-hidden="true"></i>
+                <i class="fas fa-database fa-4x" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
 
 </div>
-</div>
 
-<div class="col-md-4 mr-auto pb-3 pt-2">
-
-    <h2 class="dev-ops">Dev Ops</h2>
-
-    <ul>
-
-        <li>GitHub</li>
-        <li>Node</li>
-        <li>Docker</li>
-        <li>MySQL</li>
-        <li>Express</li>
-
-    </ul>
-
-</div>
-</div>
-
-<!------------------------------footer------------------------------>
+<!------------------------------Footer/Contact------------------------------>
 
 <footer>
-
 
     <form action="./apis/" id="contact" method="post" novalidate>
         <div class="contact">
@@ -109,7 +104,7 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fa fa-user"></i></span>
                 </div>
-                <input class="form-control" id="name" name="name" placeholder="Your Name" type="text">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text">
             </div>
         </div>
         <div class="form-group">
@@ -118,7 +113,7 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fa fa-envelope"></i></span>
                 </div>
-                <input class="form-control" id="email" name="email" placeholder="Your Email" type="email">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email">
             </div>
         </div>
         <div class="form-group">
@@ -142,24 +137,29 @@
             </div>
         </div>
         <div class="g-recaptcha" data-sitekey="6LemjWYaAAAAAGupebpAmoJaJuxttdMMDiw10GFc"></div>
-        <!-- Make sure to add site key provided by google recaptcha -->
-        <!--  <div class="g-recaptcha" data-sitekey=""></div> -->
-        <button class="btn btn-info" type="submit">Submit</button>
-        <button class="btn btn-default" type="reset">Reset</button>
+
+        <button class="btn btn-dark" type="submit">SUBMIT</button>
+        <button class="btn btn-dark" type="reset">RESET</button>
     </form>
 
     <div class="container">
-        <p>© Copyright 2021 World of BW </p>
+        <p>World of BW </p>
+
+        <a href="https://github.com/brandonwhyte0717" class="GitHub">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/brandonwhyte0717" class="LinkedIn">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+        </a>
+
     </div>
 
-    <img src="https://assets-global.website-files.com/5e2701b416b6d176f5007781/5f6d5349392f864dd076175b_icon-linkdin.svg" alt="Raygun on LinkedIn">
-    <img src="https://assets-global.website-files.com/5e2701b416b6d176f5007781/5f6d5350abc1700aede4f986_icon-github.svg" width="24" height="24" alt="Raygun on GitHub">
-
 </footer>
+</div>
 
 
-<!-- Jquery and Bootstrap Dependencies -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
 <script
         crossorigin="anonymous"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
