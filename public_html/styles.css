@@ -4,12 +4,17 @@ body {
     font-family: "Helvetica Neue", "Arial", sans-serif;;
 }
 
+#intro {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 footer {
     color: white;
     background-color: gray;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    border: black 1rem;
+    padding-bottom: 1px;
+    padding-top: 10px;
+    border: solid black 2px;
 }
 
 #about-me {
@@ -29,10 +34,6 @@ footer p {
     text-align: center;
 }
 
-#contact-button {
-    padding-bottom: 10px;
-}
-
 #skills {
     font-size: 50px;
     text-align: center;
@@ -41,8 +42,9 @@ footer p {
 
 #intro-text {
     color: gray;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
+    padding: 5px 5px;
 }
 
 form {
@@ -64,4 +66,19 @@ li {
 #about-text {
     color: white;
     border: black;
+}
+
+#skills-pic {
+    position: relative;
+    padding: 30px 20px;
+}
+
+#profile-pic {
+    justify-content: center;
+    border: solid white 2px;
+}
+
+#about {
+    padding: 5px 5px;
+    border: solid white 2px;
 }
